@@ -1,0 +1,51 @@
+# MediBook AI — one-command stack: Postgres + FastAPI backend + React frontend
+# Usage:
+#   cp .env.example .env        # fill in JWT_SECRET at minimum
+#   docker compose up --build   # frontend -> http://localhost:3000, API -> http://localhost:8000
+#   docker compose exec backend python seed.py   # demo data (doctors, demo logins)
+
+services:
+  db:
+    image: postgres:16.4
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-medibook}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-medibook}
+      POSTGRES_DB: ${POSTGRES_DB:-medibook}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER:-medibook}"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-medibook}:${POSTGRES_PASSWORD:-medibook}@db:5432/${POSTGRES_DB:-medibook}
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env}
+      JWT_EXPIRE_MINUTES: ${JWT_EXPIRE_MINUTES:-1440}
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "3000:80"
+
+volumes:
+  pgdata:

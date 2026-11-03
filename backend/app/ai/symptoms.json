@@ -1,0 +1,718 @@
+[
+ {
+  "keywords": [
+   "chest pain",
+   "chest tightness",
+   "pressure in chest",
+   "heart attack"
+  ],
+  "notes": "Chest discomfort needs prompt cardiac evaluation.",
+  "specialty": "Cardiology",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "palpitations",
+   "heart racing",
+   "heart pounding",
+   "rapid heartbeat",
+   "irregular heartbeat"
+  ],
+  "notes": "Heart rhythm concerns are commonly reviewed by a cardiologist.",
+  "specialty": "Cardiology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "shortness of breath",
+   "breathless",
+   "difficulty breathing",
+   "can't breathe"
+  ],
+  "notes": "Breathing difficulty needs urgent evaluation.",
+  "specialty": "Pulmonology",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "swollen legs",
+   "ankle swelling",
+   "swollen feet",
+   "leg swelling"
+  ],
+  "notes": "Swelling in the legs can relate to heart or circulation issues.",
+  "specialty": "Cardiology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "high blood pressure",
+   "hypertension",
+   "bp high"
+  ],
+  "notes": "Blood pressure management is a core cardiology area.",
+  "specialty": "Cardiology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "fainting",
+   "fainted",
+   "blackout",
+   "passed out"
+  ],
+  "notes": "Fainting episodes warrant cardiac and neurological review.",
+  "specialty": "Cardiology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "wheezing",
+   "asthma",
+   "asthma attack"
+  ],
+  "notes": "Wheezing and asthma are managed by lung specialists.",
+  "specialty": "Pulmonology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "chest congestion",
+   "phlegm",
+   "mucus in chest"
+  ],
+  "notes": "Persistent congestion is commonly reviewed by a pulmonologist.",
+  "specialty": "Pulmonology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "seizure",
+   "seizures",
+   "fits",
+   "convulsion"
+  ],
+  "notes": "Seizures need urgent neurological evaluation.",
+  "specialty": "Neurology",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "face drooping",
+   "facial droop"
+  ],
+  "notes": "Facial drooping can be a stroke warning sign \u2014 get emergency care.",
+  "specialty": "Neurology",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "slurred speech",
+   "speech difficulty"
+  ],
+  "notes": "Slurred speech can be a stroke warning sign \u2014 get emergency care.",
+  "specialty": "Neurology",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "stroke"
+  ],
+  "notes": "Stroke signs need immediate emergency care.",
+  "specialty": "Neurology",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "headache",
+   "migraine",
+   "severe headache"
+  ],
+  "notes": "Recurring headaches and migraines are a neurology area.",
+  "specialty": "Neurology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "numbness",
+   "tingling",
+   "pins and needles"
+  ],
+  "notes": "Numbness or tingling can relate to nerves and needs review.",
+  "specialty": "Neurology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "memory loss",
+   "forgetfulness",
+   "forgetting things"
+  ],
+  "notes": "Memory concerns are evaluated by neurologists.",
+  "specialty": "Neurology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "tremor",
+   "shaky hands",
+   "shaking hands"
+  ],
+  "notes": "Tremors are commonly reviewed in neurology.",
+  "specialty": "Neurology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "vertigo",
+   "dizzy spells",
+   "spinning sensation",
+   "room spinning"
+  ],
+  "notes": "Vertigo can relate to inner ear or neurological causes.",
+  "specialty": "Neurology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "unconscious",
+   "lost consciousness",
+   "unresponsive"
+  ],
+  "notes": "Loss of consciousness needs immediate emergency care.",
+  "specialty": "Neurology",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "skin rash",
+   "rash on skin",
+   "red patches",
+   "red spots on skin"
+  ],
+  "notes": "Skin rashes are a core dermatology area.",
+  "specialty": "Dermatology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "itching",
+   "itchy skin",
+   "itchy"
+  ],
+  "notes": "Persistent itching is commonly reviewed by dermatologists.",
+  "specialty": "Dermatology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "acne",
+   "pimples",
+   "breakouts"
+  ],
+  "notes": "Acne is routinely managed by dermatologists.",
+  "specialty": "Dermatology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "hair loss",
+   "hair fall",
+   "balding",
+   "thinning hair"
+  ],
+  "notes": "Hair loss is commonly evaluated by dermatologists.",
+  "specialty": "Dermatology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "eczema",
+   "dry skin patches",
+   "scaly skin"
+  ],
+  "notes": "Eczema and dry-skin conditions are a dermatology area.",
+  "specialty": "Dermatology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "mole",
+   "changing mole",
+   "new mole",
+   "dark spot on skin"
+  ],
+  "notes": "Changing moles should be checked by a dermatologist.",
+  "specialty": "Dermatology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "hives",
+   "welts",
+   "raised red bumps"
+  ],
+  "notes": "Hives can signal allergy and may need prompt review.",
+  "specialty": "Dermatology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "severe bleeding",
+   "heavy bleeding",
+   "bleeding heavily"
+  ],
+  "notes": "Severe bleeding needs immediate emergency care.",
+  "specialty": "General Medicine",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "knee pain",
+   "pain in knee",
+   "sore knee",
+   "knee"
+  ],
+  "notes": "Knee pain is commonly evaluated by orthopedic doctors.",
+  "specialty": "Orthopedics",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "back pain",
+   "lower back pain",
+   "backache"
+  ],
+  "notes": "Back pain is a frequent orthopedic concern.",
+  "specialty": "Orthopedics",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "joint pain",
+   "swollen joints",
+   "painful joints"
+  ],
+  "notes": "Joint pain and swelling are orthopedic areas.",
+  "specialty": "Orthopedics",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "neck pain",
+   "stiff neck",
+   "neck stiffness"
+  ],
+  "notes": "Neck pain and stiffness are commonly reviewed by orthopedics.",
+  "specialty": "Orthopedics",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "shoulder pain",
+   "pain in shoulder"
+  ],
+  "notes": "Shoulder pain is an orthopedic area.",
+  "specialty": "Orthopedics",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "fracture",
+   "broken bone",
+   "broken arm",
+   "broken leg"
+  ],
+  "notes": "Suspected fractures need urgent orthopedic care.",
+  "specialty": "Orthopedics",
+  "urgency": "urgent"
+ },
+ {
+  "keywords": [
+   "sprain",
+   "ankle sprain",
+   "twisted ankle"
+  ],
+  "notes": "Sprains are commonly managed in orthopedics.",
+  "specialty": "Orthopedics",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "arthritis",
+   "stiff joints in morning"
+  ],
+  "notes": "Arthritis is managed by orthopedic and rheumatology doctors.",
+  "specialty": "Orthopedics",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "child fever",
+   "baby fever",
+   "kid fever",
+   "toddler fever",
+   "infant fever",
+   "child"
+  ],
+  "notes": "Fever in children should be reviewed by a pediatrician.",
+  "specialty": "Pediatrics",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "child cough",
+   "baby cough",
+   "kid cough"
+  ],
+  "notes": "Persistent cough in children is a pediatrics area.",
+  "specialty": "Pediatrics",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "child vomiting",
+   "baby vomiting",
+   "kid vomiting"
+  ],
+  "notes": "Vomiting in children should be checked by a pediatrician.",
+  "specialty": "Pediatrics",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "diaper rash",
+   "baby rash"
+  ],
+  "notes": "Infant rashes are commonly seen by pediatricians.",
+  "specialty": "Pediatrics",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "child ear pain",
+   "baby ear pain",
+   "kid earache"
+  ],
+  "notes": "Ear pain in children is commonly reviewed by pediatricians.",
+  "specialty": "Pediatrics",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "fever",
+   "high temperature",
+   "temperature"
+  ],
+  "notes": "Fever is a common general-medicine concern.",
+  "specialty": "General Medicine",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "cold",
+   "runny nose",
+   "sneezing",
+   "stuffy nose"
+  ],
+  "notes": "Cold symptoms are routinely managed in general medicine.",
+  "specialty": "General Medicine",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "cough",
+   "persistent cough",
+   "dry cough"
+  ],
+  "notes": "Persistent cough is a common general-medicine concern.",
+  "specialty": "General Medicine",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "body ache",
+   "body pain",
+   "fatigue",
+   "tiredness",
+   "feeling tired"
+  ],
+  "notes": "Fatigue and body aches are common general-medicine concerns.",
+  "specialty": "General Medicine",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "sore throat",
+   "throat pain",
+   "painful swallowing"
+  ],
+  "notes": "Sore throat is routinely managed in general medicine.",
+  "specialty": "General Medicine",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "flu",
+   "influenza"
+  ],
+  "notes": "Flu is routinely managed in general medicine.",
+  "specialty": "General Medicine",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "nausea",
+   "feeling nauseous",
+   "vomiting"
+  ],
+  "notes": "Nausea and vomiting are common general-medicine concerns.",
+  "specialty": "General Medicine",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "diarrhea",
+   "loose motions",
+   "watery stool"
+  ],
+  "notes": "Diarrhea lasting more than a couple of days should be reviewed.",
+  "specialty": "General Medicine",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "weight loss",
+   "losing weight",
+   "unexplained weight loss"
+  ],
+  "notes": "Unexplained weight loss should be evaluated.",
+  "specialty": "General Medicine",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "stomach pain",
+   "abdominal pain",
+   "stomach cramps",
+   "abdominal cramps",
+   "belly pain"
+  ],
+  "notes": "Abdominal pain is a gastroenterology area.",
+  "specialty": "Gastroenterology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "acidity",
+   "heartburn",
+   "acid reflux",
+   "burning in chest after food"
+  ],
+  "notes": "Acidity and reflux are commonly managed by gastroenterologists.",
+  "specialty": "Gastroenterology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "constipation",
+   "hard stool",
+   "difficulty passing stool"
+  ],
+  "notes": "Constipation is a common gastroenterology concern.",
+  "specialty": "Gastroenterology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "bloating",
+   "gas",
+   "gassy",
+   "fullness after eating"
+  ],
+  "notes": "Bloating and gas are common digestive concerns.",
+  "specialty": "Gastroenterology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "blurry vision",
+   "blurred vision",
+   "blurry eyesight",
+   "blurry"
+  ],
+  "notes": "Blurry vision should be checked by an eye doctor.",
+  "specialty": "Ophthalmology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "eye pain",
+   "pain in eye",
+   "red eyes",
+   "bloodshot eyes"
+  ],
+  "notes": "Eye pain or redness should be reviewed by an ophthalmologist.",
+  "specialty": "Ophthalmology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "itchy eyes",
+   "watery eyes",
+   "tearing eyes"
+  ],
+  "notes": "Itchy or watery eyes are commonly seen in ophthalmology.",
+  "specialty": "Ophthalmology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "eye infection",
+   "conjunctivitis",
+   "pink eye",
+   "eye discharge"
+  ],
+  "notes": "Eye infections should be reviewed by an eye doctor.",
+  "specialty": "Ophthalmology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "night blindness",
+   "trouble seeing at night",
+   "poor night vision"
+  ],
+  "notes": "Night-vision trouble is an ophthalmology area.",
+  "specialty": "Ophthalmology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "ear pain",
+   "earache",
+   "pain in ear"
+  ],
+  "notes": "Ear pain is commonly managed by ENT doctors.",
+  "specialty": "ENT",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "hearing loss",
+   "hard of hearing",
+   "muffled hearing"
+  ],
+  "notes": "Hearing loss should be evaluated by an ENT doctor.",
+  "specialty": "ENT",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "nosebleed",
+   "bleeding nose",
+   "nose bleed"
+  ],
+  "notes": "Recurrent nosebleeds should be checked by an ENT doctor.",
+  "specialty": "ENT",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "sinus",
+   "sinusitis",
+   "sinus pressure",
+   "sinus pain"
+  ],
+  "notes": "Sinus issues are a core ENT area.",
+  "specialty": "ENT",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "excessive thirst",
+   "frequent urination",
+   "urinating often",
+   "high blood sugar",
+   "diabetes"
+  ],
+  "notes": "Blood-sugar concerns are managed by endocrinologists.",
+  "specialty": "Endocrinology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "thyroid",
+   "neck swelling",
+   "swollen neck gland"
+  ],
+  "notes": "Thyroid concerns are an endocrinology area.",
+  "specialty": "Endocrinology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "anxiety",
+   "panic attack",
+   "panic attacks",
+   "feeling anxious"
+  ],
+  "notes": "Anxiety is commonly supported by psychiatrists and counselors.",
+  "specialty": "Psychiatry",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "insomnia",
+   "can't sleep",
+   "sleeplessness",
+   "trouble sleeping"
+  ],
+  "notes": "Sleep difficulties are commonly addressed in psychiatry.",
+  "specialty": "Psychiatry",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "depression",
+   "low mood",
+   "feeling hopeless",
+   "loss of interest"
+  ],
+  "notes": "Persistent low mood deserves professional support.",
+  "specialty": "Psychiatry",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "period pain",
+   "menstrual cramps",
+   "irregular periods",
+   "missed period",
+   "pregnancy"
+  ],
+  "notes": "Menstrual and pregnancy concerns are a gynecology area.",
+  "specialty": "Gynecology",
+  "urgency": "routine"
+ },
+ {
+  "keywords": [
+   "painful urination",
+   "burning urination",
+   "burning while peeing"
+  ],
+  "notes": "Painful urination should be reviewed by a urologist.",
+  "specialty": "Urology",
+  "urgency": "soon"
+ },
+ {
+  "keywords": [
+   "kidney pain",
+   "flank pain",
+   "pain in side of back"
+  ],
+  "notes": "Flank or kidney-area pain is a urology area.",
+  "specialty": "Urology",
+  "urgency": "soon"
+ }
+]
